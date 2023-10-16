@@ -15,7 +15,7 @@ function App() {
         <Col>3 of 5</Col>
       </Row>
       <Row>
-        <Col>1 of 5</Col>
+        <Col>1 of 6</Col>
         <Col xs={5}><BasicExample/></Col>
         <Col><Forms/></Col>
       </Row>
