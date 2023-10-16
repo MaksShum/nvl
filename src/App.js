@@ -12,7 +12,7 @@ function App() {
       <Row>
         <Col>1 of 3</Col>
         <Col xs={10}><BasicExample/></Col>
-        <Col>3 of 2</Col>
+        <Col>3 of 5</Col>
       </Row>
       <Row>
         <Col>1 of 3</Col>
