@@ -1,0 +1,30 @@
+.navigation-panel {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .navigation-panel ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation-panel li {
+    margin-right: 30px
+    
+  }
+  
+  .navigation-panel a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navigation-panel a:hover {
+    text-decoration: underline;
+  }
