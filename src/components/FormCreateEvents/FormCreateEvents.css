@@ -1,11 +1,11 @@
-.authorization-form {
+.create-event-form {
     background-color: black;
     color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     max-width: 400px;
-    margin: 15px auto;
+    margin: 20px auto;
   }
   
   .form-group {
@@ -16,13 +16,16 @@
     display: block;
   }
   
-  .form-group input {
-    padding: 5px;
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    color: #000; /* Text color for input fields */
   }
   
-  .button-sub {
+  .button-create {
     width: 100%;
     padding: 10px;
     background-color: #3498db;
@@ -33,30 +36,6 @@
     font-size: 16px;
   }
   
-  .button-sub:hover {
+  .button-create:hover {
     background-color: #2e86c0;
   }
-  
-  .regAndForgot {
-    width: 45%;
-    padding: 10px;
-    background-color: #db4d34;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 3px;
-  }
-  
-  .regAndForgot :hover {
-    background-color: #ce0d06;
-  }
-
-  .extraButton,
-  .sign-up {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  /* Customize the styles as needed */

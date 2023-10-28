@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './RegForm.css'; // You can define your CSS for styling the form
+import {Link} from 'react-router-dom'
 
 const RegForm = () => {
   const [login, setLogin] = useState('');
@@ -10,7 +11,7 @@ const RegForm = () => {
   const handleLoginChange = (e) => setLogin(e.target.value);
   const handlePasswordChange = (e) => setPassword(e.target.value);
   const handleRememberMeChange = (e) => setRememberMe(e.target.checked);
-  const handlePoliticalChange = (e) => setIsPolitical(e.target.value);
+  const handlePoliticalChange = (e) => setIsPolitical(e.target.checked);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -54,18 +55,18 @@ const RegForm = () => {
          
             <input
               type="checkbox"
-              name="political"
-              value="yes"
               checked={isPolitical}
               onChange={handlePoliticalChange}
+              
             />
             Political
          
         </div>
         <button className="button-sub" type="submit">Sign In</button>
       </form>
-      <div className="forgot-password">
-        <button className="button-forgot">Forgot Password</button>
+      <div className="extraButton">
+        <button className="regAndForgot">Forgot Password</button>
+        <button className="regAndForgot"><Link to='/reg'>Sign-up</Link></button>
       </div>
     </div>
   );
